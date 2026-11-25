@@ -9,7 +9,7 @@ Every day includes:
 - an infographic (and the prompt used to design it)
 - key takeaways, a hands-on mini-project, interview questions, and resources
 
-The full 90-day sequence is in [LEARNING_PLAN.md](LEARNING_PLAN.md).
+The full 90-day sequence is in [LEARNING_PLAN.md](LEARNING_PLAN.md). Image rules are in [IMAGE_STYLE_GUIDE.md](IMAGE_STYLE_GUIDE.md).
 
 ## Daily log
 

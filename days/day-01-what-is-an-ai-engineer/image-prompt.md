@@ -9,7 +9,7 @@ STYLE (series visual identity, keep identical every day):
 Flat, modern, minimal vector style on a warm light theme. Background: soft cream #F8F5F1 with a very faint dot-grid texture. Primary accent: orange #EA8417 (borders, arrows, accent bars), icon orange #E5780A, deep orange #C84D00 for highlighted labels, dark brown #871B00 for pill text. Text: near-black #141414, secondary text warm gray #7C7978, captions #6E6C6C. Cards: #F8F4F0 with 1px borders in #E3DCD3 and 16px rounded corners. Highlighted card: background #FCF4EB with a 2px #EA8417 border and a soft orange glow. Pill and tag backgrounds: peach #FCCC9D, light peach #FBE5CD. Clean geometric sans-serif typeface (like Inter), bold headings, generous spacing, no 3D, no photos, no people, no logos.
 
 HEADER (top, left aligned):
-Small peach pill label (#FCCC9D background, #871B00 text): "DAY 01". Small gray uppercase label next to it: "AI ENGINEER ROADMAP".
+Small peach pill label (#FCCC9D background, #871B00 text): "DAY 01". Small gray uppercase label next to it: "AI ENGINEERING SERIES".
 Large bold title: "What is an AI Engineer?"
 Subtitle in gray: "They don't train the model. They build the product around it."
 
@@ -24,7 +24,7 @@ Left card (#F5F1EC background, #A3998B left accent bar): "ML Engineer" / "Trains
 Right card (#FDEFE1 background, #F7BA7B border, #EF932E left accent bar, title in #C84D00): "AI Engineer" / "Ships products with models".
 
 FOOTER (bottom, thin divider line above):
-Left: "Learning AI Engineering in public" with "AI Engineering" in #C84D00. Right: "roadmap.sh/ai-engineer".
+Left-aligned only: "Learning AI Engineering in public" with "AI Engineering" in #C84D00. Do not include any roadmap name, URL or website.
 
 All text must be spelled exactly as written, sharp and readable. Plenty of negative space, clear visual hierarchy, no extra text, no clutter.
 ```
@@ -43,5 +43,5 @@ All text must be spelled exactly as written, sharp and readable. Plenty of negat
 | Text | #141414 / #7C7978 / #6E6C6C |
 | Muted accent | #A3998B (ML Engineer bar) |
 | Font | Inter (or similar geometric sans) |
-| Header | "DAY NN" peach pill + "AI ENGINEER ROADMAP" |
-| Footer | "Learning AI Engineering in public" · "roadmap.sh/ai-engineer" |
+| Header | "DAY NN" peach pill + "AI ENGINEERING SERIES" |
+| Footer | "Learning AI Engineering in public" only (no roadmap name or URL) |
