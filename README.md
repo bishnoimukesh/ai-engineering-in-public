@@ -16,10 +16,11 @@ The full 90-day sequence is in [LEARNING_PLAN.md](LEARNING_PLAN.md).
 | Day | Topic | Section | Level |
 |---|---|---|---|
 | [01](days/day-01-what-is-an-ai-engineer/) | What is an AI Engineer? | Introduction | Beginner |
+| [02](days/day-02-ai-engineer-vs-ml-engineer/) | AI Engineer vs ML Engineer | Introduction | Beginner |
 
 ## Latest
 
-<a href="days/day-01-what-is-an-ai-engineer/"><img src="days/day-01-what-is-an-ai-engineer/image.png" width="420" alt="Day 1: What is an AI Engineer?"></a>
+<a href="days/day-02-ai-engineer-vs-ml-engineer/"><img src="days/day-02-ai-engineer-vs-ml-engineer/image.png" width="420" alt="Day 2: AI Engineer vs ML Engineer"></a>
 
 ## Repo layout
 
