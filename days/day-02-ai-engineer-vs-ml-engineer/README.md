@@ -89,13 +89,29 @@ Which side do you lean toward today, and what pulled you there?
 
 ---
 
-## 3. Image Generation Prompt
+## 3. X (Twitter) Post
+
+Single post, 280/280 characters.
+
+```text
+An ML Engineer opens a dataset. An AI Engineer opens an API.
+
+I classified reviews both ways. A model trained on 16 examples got 2 of 6 right. A pre-trained LLM needed zero training.
+
+ML engineers build the model. AI engineers build with it.
+
+Day 2 #AIEngineering #MachineLearning
+```
+
+---
+
+## 4. Image Generation Prompt
 
 See [`image-prompt.md`](image-prompt.md). A rendered version is included as [`image.png`](image.png).
 
 ---
 
-## 4. Key Takeaways
+## 5. Key Takeaways
 
 1. **Different starting points:** ML Engineers start from data and produce trained models; AI Engineers start from pre-trained models and produce product features.
 2. **Different loops and metrics:** retraining and classic ML metrics vs. prompt/context iteration with evals, latency and cost per request.
@@ -103,7 +119,7 @@ See [`image-prompt.md`](image-prompt.md). A rendered version is included as [`im
 
 ---
 
-## 5. Practical Implementation
+## 6. Practical Implementation
 
 **Mini-project: one problem, two approaches** ([`two_approaches.py`](two_approaches.py))
 
@@ -127,7 +143,7 @@ Then try:
 
 ---
 
-## 6. Interview Preparation
+## 7. Interview Preparation
 
 **Q1. What's the main difference between an AI Engineer and an ML Engineer?**
 The starting point and the output. An ML Engineer starts with data and produces a trained model: data preparation, feature engineering, training, tuning, and the pipelines to retrain and serve it. An AI Engineer starts with an existing pre-trained model and produces a product feature: prompts, context and retrieval, tool integration, evaluation, and deployment. The roles overlap on evaluation, deployment, monitoring and sometimes fine-tuning.
@@ -140,7 +156,7 @@ ML engineers usually have a labeled test set with one correct answer per example
 
 ---
 
-## 7. Learning Resources
+## 8. Learning Resources
 
 - [roadmap.sh: AI Engineer Roadmap](https://roadmap.sh/ai-engineer)
 - [What does an AI Engineer do? (Codecademy)](https://www.codecademy.com/resources/blog/what-does-an-ai-engineer-do/)

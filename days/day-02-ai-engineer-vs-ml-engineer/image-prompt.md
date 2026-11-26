@@ -28,5 +28,5 @@ Small gray caps label "SHARED GROUND" and a row of five rounded tags (#FBE5CD ba
 FOOTER (bottom, thin #E3DCD3 divider line above):
 Left-aligned only: "Learning AI Engineering in public" with "AI Engineering" in #C84D00. Do not include any roadmap name, URL or website.
 
-All text must be spelled exactly as written, sharp and readable. Plenty of negative space, clear visual hierarchy, no extra text, no clutter.
+All text must be spelled exactly as written, sharp and readable. Plenty of negative space, clear visual hierarchy, no extra text, no clutter. Content must fill the canvas evenly: no large empty band above the footer; keep about 40px between the last content block and the footer divider.
 ```

@@ -5,11 +5,11 @@ One topic a day, from fundamentals to job-ready AI Engineer, following the [road
 Every day includes:
 
 - a plain-language explanation of the topic
-- the LinkedIn post I published
+- the LinkedIn post and the X post I published
 - an infographic (and the prompt used to design it)
 - key takeaways, a hands-on mini-project, interview questions, and resources
 
-The full 90-day sequence is in [LEARNING_PLAN.md](LEARNING_PLAN.md). Image rules are in [IMAGE_STYLE_GUIDE.md](IMAGE_STYLE_GUIDE.md).
+The full 90-day sequence is in [LEARNING_PLAN.md](LEARNING_PLAN.md). Image rules are in [IMAGE_STYLE_GUIDE.md](IMAGE_STYLE_GUIDE.md), and the daily post format is in [CONTENT_FORMAT.md](CONTENT_FORMAT.md).
 
 ## Daily log
 

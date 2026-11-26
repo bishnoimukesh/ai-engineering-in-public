@@ -10,6 +10,7 @@ Every daily infographic follows these rules, so the series looks consistent.
 4. **Footer:** a thin divider line, then left-aligned text "Learning AI Engineering in public" with "AI Engineering" in deep orange. Nothing else goes in the footer.
 5. **Content:** the image explains the concept visually with diagrams, flows, comparisons and icons. Use short labels only, no paragraphs.
 6. **No** photos, people, brand logos, 3D effects or clutter. All text must be spelled exactly as written.
+7. **No big gap above the footer.** The content fills the canvas evenly, with about 40px between the last content block and the footer divider. In the HTML source, the footer sits in the normal page flow (not absolutely positioned) and the main diagram section stretches to fill the extra height.
 
 ## Palette
 

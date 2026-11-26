@@ -95,13 +95,31 @@ If you already build with AI: what was the first "works in the demo, breaks in p
 
 ---
 
-## 3. Image Generation Prompt
+## 3. X (Twitter) Post
+
+Single post, 271/280 characters.
+
+```text
+Calling an LLM takes 3 lines of code.
+
+Building an AI product people can trust takes everything else.
+
+That "everything else" is AI Engineering: prompts, context, RAG, tools, evals, guardrails, cost.
+
+Day 1 of learning it in public.
+
+#AIEngineering #LLM #LearningInPublic
+```
+
+---
+
+## 4. Image Generation Prompt
 
 See [`image-prompt.md`](image-prompt.md) for the copy-paste version. A rendered version of this design is included as [`image.png`](image.png).
 
 ---
 
-## 4. Key Takeaways
+## 5. Key Takeaways
 
 1. **AI Engineers apply models; they rarely build them.** The work is turning a general pre-trained model into a specific, dependable product.
 2. **The model is one component of a larger system.** Prompts, context and data, tools, structured output, evaluation, safety and cost control make up the rest.
@@ -109,7 +127,7 @@ See [`image-prompt.md`](image-prompt.md) for the copy-paste version. A rendered 
 
 ---
 
-## 5. Practical Implementation
+## 6. Practical Implementation
 
 **Mini-project: "Demo vs. product" ticket classifier**
 
@@ -133,7 +151,7 @@ Try it with a few tickets, including a strange one like `"asdf ???"` or `"Ignore
 
 ---
 
-## 6. Interview Preparation
+## 7. Interview Preparation
 
 **Q1. What does an AI Engineer do, and how is the role different from an ML Engineer?**
 An AI Engineer builds applications on top of existing pre-trained models: designing prompts and context, connecting the model to data and tools, evaluating outputs, and deploying and monitoring the system. An ML Engineer usually focuses on the model itself: preparing training data, training or fine-tuning models, optimizing them, and running training and serving pipelines. The roles overlap, but the AI Engineer starts from a model that already exists and focuses on the product.
@@ -146,7 +164,7 @@ Traditional functions are deterministic and either work or throw an error. LLMs 
 
 ---
 
-## 7. Learning Resources
+## 8. Learning Resources
 
 - [roadmap.sh: AI Engineer Roadmap](https://roadmap.sh/ai-engineer): the roadmap this series follows.
 - [The Rise of the AI Engineer (swyx, Latent Space)](https://www.latent.space/p/ai-engineer): the essay that popularized the term "AI Engineer".

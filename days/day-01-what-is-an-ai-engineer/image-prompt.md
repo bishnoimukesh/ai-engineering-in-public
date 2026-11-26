@@ -26,7 +26,7 @@ Right card (#FDEFE1 background, #F7BA7B border, #EF932E left accent bar, title i
 FOOTER (bottom, thin divider line above):
 Left-aligned only: "Learning AI Engineering in public" with "AI Engineering" in #C84D00. Do not include any roadmap name, URL or website.
 
-All text must be spelled exactly as written, sharp and readable. Plenty of negative space, clear visual hierarchy, no extra text, no clutter.
+All text must be spelled exactly as written, sharp and readable. Plenty of negative space, clear visual hierarchy, no extra text, no clutter. Content must fill the canvas evenly: no large empty band above the footer; keep about 40px between the last content block and the footer divider.
 ```
 
 ## Visual identity reference (reuse for every day)
