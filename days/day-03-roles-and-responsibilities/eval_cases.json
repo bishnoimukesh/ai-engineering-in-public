@@ -1,0 +1,34 @@
+[
+  {
+    "id": "simple-two-owners",
+    "attendees": ["Priya", "Tom"],
+    "transcript": "Priya: I'll send the revised pricing deck to the client by Friday.\nTom: Great. I'll fix the login bug before the release.\nPriya: Sounds good.",
+    "expected_owners": ["Priya", "Tom"],
+    "min_items": 2,
+    "max_items": 2
+  },
+  {
+    "id": "no-action-items",
+    "attendees": ["Ana", "Ben"],
+    "transcript": "Ana: How was everyone's weekend?\nBen: Pretty relaxing, went hiking.\nAna: Nice, let's catch up properly next week.",
+    "expected_owners": [],
+    "min_items": 0,
+    "max_items": 0
+  },
+  {
+    "id": "unassigned-task",
+    "attendees": ["Lee", "Sam", "Kim"],
+    "transcript": "Lee: Someone needs to update the onboarding docs.\nSam: I can take that.\nKim: I'll review Sam's draft on Monday.",
+    "expected_owners": ["Sam", "Kim"],
+    "min_items": 2,
+    "max_items": 2
+  },
+  {
+    "id": "no-invented-people",
+    "attendees": ["Maya", "Raj"],
+    "transcript": "Maya: The vendor said they'd ship the parts next week.\nRaj: OK. I'll book the installation team once the parts arrive.",
+    "expected_owners": ["Raj"],
+    "min_items": 1,
+    "max_items": 1
+  }
+]

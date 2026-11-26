@@ -9,8 +9,8 @@ Status: ✅ published · ⏳ next · ⬜ planned
 |---|---|---|
 | 1 | What is an AI Engineer? ✅ | Beginner |
 | 2 | AI Engineer vs ML Engineer ✅ | Beginner |
-| 3 | Roles, responsibilities & impact on product development ⏳ | Beginner |
-| 4 | What is a Large Language Model (LLM)? | Beginner |
+| 3 | Roles, responsibilities & impact on product development ✅ | Beginner |
+| 4 | What is a Large Language Model (LLM)? ⏳ | Beginner |
 | 5 | How LLMs work: next-token prediction & transformers (high level) | Beginner |
 | 6 | Tokens & tokenization | Beginner |
 | 7 | The context window | Beginner |

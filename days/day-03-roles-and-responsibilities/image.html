@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px}
+body{font-family:'Inter',sans-serif;background:#F8F5F1;color:#141414;overflow:hidden;display:flex;flex-direction:column;padding:72px 72px 44px;
+background-image:radial-gradient(#ECE5DC 1.2px,transparent 1.2px);background-size:28px 28px}
+.wrap{flex:1;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;gap:16px}
+.pill{background:#FCCC9D;color:#871B00;font-weight:800;font-size:22px;padding:8px 18px;border-radius:999px;letter-spacing:.06em}
+.tag{color:#7C7978;font-weight:600;font-size:20px;letter-spacing:.18em}
+h1{font-size:68px;font-weight:800;letter-spacing:-.02em;margin-top:26px;line-height:1.05}
+h1 span{color:#C84D00}
+.sub{font-size:28px;color:#7C7978;margin-top:16px}
+.sub b{color:#141414;font-weight:600}
+.life{flex:1;display:flex;flex-direction:column;margin-top:36px;background:#FCF4EB;border:2px solid #EA8417;border-radius:20px;padding:22px 28px 18px;box-shadow:0 0 0 6px rgba(234,132,23,.07),0 0 36px rgba(234,132,23,.12)}
+.k{font-size:16px;font-weight:700;letter-spacing:.16em;color:#7C7978}
+.life .k{color:#C84D00}
+.steps{flex:1;display:flex;flex-direction:column;justify-content:space-between;margin-top:12px;position:relative}
+.steps:before{content:"";position:absolute;left:21px;top:28px;bottom:28px;width:2px;background:#F2C9A0}
+.s{display:flex;align-items:center;gap:18px;position:relative}
+.n{flex:none;width:44px;height:44px;border-radius:50%;background:#FCCC9D;color:#871B00;font-size:19px;font-weight:800;display:flex;align-items:center;justify-content:center;border:3px solid #FCF4EB}
+.s .t{font-size:24px;font-weight:700;width:250px;flex:none}
+.s .d{font-size:20px;color:#6E6C6C;line-height:1.32}
+.loop{margin-top:20px;border-top:1.5px dashed #F2C9A0;padding-top:14px;display:flex;align-items:center;gap:10px;font-size:18px;font-weight:600;color:#C84D00;}
+.strip{margin-top:22px;background:#F8F4F0;border:1.5px solid #E3DCD3;border-radius:18px;padding:18px 24px;border-left:6px solid #EF932E}
+.strip.muted{border-left-color:#A3998B}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:11px}
+.tg{background:#FBE5CD;color:#871B00;font-size:17px;font-weight:600;padding:7px 13px;border-radius:999px}
+.muted .tg{background:#EFE9E1;color:#141414}
+.foot{margin-top:40px;border-top:1.5px solid #E3DCD3;padding-top:22px;font-size:19px;color:#7C7978;font-weight:500}
+.foot b{color:#C84D00;font-weight:600}
+</style></head>
+<body><div class="wrap">
+<div class="top"><div class="pill">DAY 03</div><div class="tag">AI ENGINEERING SERIES</div></div>
+<h1>What does an AI Engineer<br><span>actually do?</span></h1>
+<p class="sub">Owns the feature from idea to production, <b>and after.</b></p>
+
+<div class="life">
+ <div class="k">THE AI FEATURE LIFECYCLE</div>
+ <div class="steps">
+  <div class="s"><div class="n">1</div><div class="t">Scope</div><div class="d">Is AI the right tool? Define "good"<br>with example inputs &amp; outputs</div></div>
+  <div class="s"><div class="n">2</div><div class="t">Prototype</div><div class="d">Pick a model, write a first prompt,<br>try it on real data</div></div>
+  <div class="s"><div class="n">3</div><div class="t">Build the system</div><div class="d">Context &amp; data, structured output,<br>tools &amp; integrations</div></div>
+  <div class="s"><div class="n">4</div><div class="t">Evaluate</div><div class="d">Run test cases on every change,<br>catch regressions</div></div>
+  <div class="s"><div class="n">5</div><div class="t">Ship safely</div><div class="d">Guardrails, fallbacks, cost &amp; latency,<br>UX for wrong answers</div></div>
+  <div class="s"><div class="n">6</div><div class="t">Monitor &amp; improve</div><div class="d">Quality signals, spend, re-test<br>when models change</div></div>
+ </div>
+ <div class="loop"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E5780A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>Repeat: AI features are never "done"</div>
+</div>
+
+<div class="strip muted">
+ <div class="k">WORKS WITH</div>
+ <div class="tags"><span class="tg">Product managers</span><span class="tg">Designers</span><span class="tg">Backend engineers</span><span class="tg">Data teams</span><span class="tg">Security &amp; legal</span></div>
+</div>
+<div class="strip">
+ <div class="k">HOW IT CHANGES PRODUCT DEVELOPMENT</div>
+ <div class="tags"><span class="tg">Faster prototypes</span><span class="tg">Examples become the spec</span><span class="tg">Design for wrong answers</span><span class="tg">Cost per request</span></div>
+</div>
+</div>
+<div class="foot">Learning <b>AI Engineering</b> in public</div>
+</body></html>
